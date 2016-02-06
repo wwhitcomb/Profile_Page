@@ -87,6 +87,11 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
+.tag.page-title {
+  font-size: 4em;
+  margin-top: 150px;
+  background-color: rgba(0,0,0,.8);
+}
 .location {
   background-color: rgba(0,0,0,.6);
   color: white;
