@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: black;
 }
 /* Link Styles */
 
@@ -34,7 +34,8 @@ a:hover {
 .nav {
   display: flex;
   justify-content: space-around;
-  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
@@ -77,29 +78,33 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: rgba(0,0,0,.6);
+  color: white;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: rgba(0,0,0,.6);
+  color: white;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: rgba(255,255,255,.2);
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
   transition: all .5s;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: white;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #0399ff;
 }
 
 ul.skills {
