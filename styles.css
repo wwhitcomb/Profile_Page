@@ -72,10 +72,11 @@ header .profile-image {
   height: 150px;
   border-radius: 50%;
   border: 3px solid white;
-  transition: all .5s;
+  transition: all 2.5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: translateX(1500px) rotate(360deg);
+  border: 3px solid #0399ff;
 }
 .tag {
   font-family: 'Open Sans', sans-serif;
@@ -96,7 +97,8 @@ header .profile-image:hover {
   background-color: rgba(0,0,0,.6);
   color: white;
 }
-.card {
+.card, 
+.inspiration {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -108,8 +110,52 @@ header .profile-image:hover {
   font-weight: 300;
   color: white;
 }
-.card:hover {
+.card:hover,
+.inspiration:hover {
   border-color: #0399ff;
+}
+
+.inspiration {
+    width: 500px;
+}
+
+.inspiration h2 {
+    text-align: center;
+}
+
+.inspiration img {
+    width: 250px;
+}
+
+.about-me {
+    position: relative;
+    width: 900px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+    text-align: left;
+    
+}
+
+.about-me p {
+    margin-left: 200px;
+}
+
+.about-me img {
+    position: absolute;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    margin: 25px 25px 15px 0;
+    border-radius: 100px;
+    border: 3px solid white;
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.about-me img.bottom:hover {
+    opacity:0;
 }
 
 ul.skills {
